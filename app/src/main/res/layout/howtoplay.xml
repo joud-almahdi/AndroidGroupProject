@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BEFBF2"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45pt"
+        android:gravity="center_horizontal"
+        android:text="How to play"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50pt"
+        android:gravity="center_horizontal"
+        android:text="This is a game that aims to help you improve in your English vocabulary. In this game, you'll choose a category and you'll need to guess what the randomly generated word that belongs to this category is. Robokill will lose a part of its body with every mistake, if it loses its head, you lose the game"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textScaleX = "2"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:layout_marginTop="300pt"
+        android:gravity="center_horizontal"
+        android:id="@+id/returnBtn"
+        />
+
+</RelativeLayout>
