@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_weight="match_parent"
+    android:background="@color/blue2"
+    tools:context=".CategorySelect">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Choose a category to begin"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animals"
+        android:textSize="30sp"
+        android:layout_marginTop="100pt"
+        android:gravity="center_horizontal"
+        android:id="@+id/animalbtn"
+        android:background="@color/y2"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="countries"
+        android:textSize="30sp"
+        android:layout_marginTop="150pt"
+        android:gravity="center_horizontal"
+        android:id="@+id/countriesbtn"
+        android:background="@color/y2"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fruit"
+        android:textSize="30sp"
+        android:layout_marginTop="200pt"
+        android:gravity="center_horizontal"
+        android:id="@+id/fruitbtn"
+        android:background="@color/y2"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="object"
+        android:textSize="30sp"
+        android:layout_marginTop="250pt"
+        android:gravity="center_horizontal"
+        android:id="@+id/objectbtn"
+        android:background="@color/y2"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="return"
+        android:textSize="30sp"
+        android:layout_marginTop="300pt"
+        android:gravity="center_horizontal"
+        android:id="@+id/retrunbtn2"
+        android:background="@color/y2"
+        />
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
