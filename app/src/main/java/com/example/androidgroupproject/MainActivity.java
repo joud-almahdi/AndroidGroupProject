@@ -21,5 +21,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Login.class));
             }
         });
+
+        Button rule = (Button)findViewById(R.id.Rules_btn);
+        rule.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, HowToPlay.class));
+            }
+        });
+
     }
 }

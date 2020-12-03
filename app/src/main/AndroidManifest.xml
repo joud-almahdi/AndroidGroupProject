@@ -11,7 +11,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Regidter"></activity>
         <activity android:name=".Login" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".HowToPlay">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
