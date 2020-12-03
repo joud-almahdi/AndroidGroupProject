@@ -60,6 +60,9 @@ public class Regidter extends AppCompatActivity {
                             helper.insertContact(c);
                             Toast tpass = Toast.makeText(Regidter.this, "Successfully registered", Toast.LENGTH_LONG);
                             tpass.show();
+                                    Intent i = new Intent(Regidter.this, Login.class);
+                                    startActivity(i);
+
                         }
                     }
 
